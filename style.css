@@ -1,0 +1,52 @@
+body {
+    background-image: url("18077368.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(255,225,201);
+    }
+#container {
+    background-color:rgba(94, 97, 93, 0.9);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 250px;
+    width: 500px;
+    border-radius: 20px;
+    color: white;
+    }    
+
+p {
+    font-family: 'Roboto Slab', serif;
+    color:white;
+    font-size: 20px;
+    align-self: center;
+    display: none;
+    text-align: center;
+    padding: 5px;
+    }
+
+#btn {
+    background-color: #B87333;
+    opacity: 0.6;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Ms Madi', cursive;
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+    }
+
+
+
+@media all and (max-width: 800px) {
+  #container {
+    width: 90%;
+    margin-left: 20px;
+    }
+  p {
+    font-size: 12px;
+  }
+}
